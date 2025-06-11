@@ -1,0 +1,45 @@
+# Default colors
+[terminal.shell]
+program = "/usr/bin/fish"
+args = ["--login"]
+
+[font]
+normal = { family = "RobotoMonoNerdFontPropo", style = "Regular" }
+bold = { family = "RobotoMonoNerdFontPropo", style = "bold" }
+italic = { family = "RobotoMonoNerdFontPropo", style = "italic" }
+bold_italic = { family = "RobotoMonoNerdFontPropo", style = "BoldItalic" }
+size = 10.5
+
+[window]
+#opacity = 0.9
+
+[colors.primary]
+background = '#414751'
+foreground = '#ffffff'
+
+# Cursor colors
+[colors.cursor]
+text = '#668292'
+cursor = '#668292'
+
+# Normal colors
+[colors.normal]
+black   = '#1c2222'
+red     = '#FF301B'
+green   = '#51a08f'
+yellow  = '#efcb62'
+blue    = '#6287ef'
+magenta = '#8763B8'
+cyan    = '#5184a0'
+white   = '#ffffff'
+
+# Bright colors
+[colors.bright]
+black   = '#6D7070'
+red     = '#b2434c'
+green   = '#3f7c5a'
+yellow  = '#eae10a'
+blue    = '#07667c'
+magenta = '#a1667c'
+cyan    = '#00c0c7'
+white   = '#d2cbaf'
