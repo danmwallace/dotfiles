@@ -15,3 +15,8 @@ There is a `make` file that helps with managing `stow` and these dot files.
 * `make delete` will delete the dot files.
 
 Either command can be prefixed with `simulate-` to run a simulation without modifying any files, and will output the results in console. This is good for testing before making changes, and preventing chaos like accidentally losing the hyprland config which I have definitely done a few times..
+
+## References for using stow
+
+* https://tamerlan.dev/how-i-manage-my-dotfiles-using-gnu-stow/
+* https://www.youtube.com/watch?v=90xMTKml9O0&t=186s
